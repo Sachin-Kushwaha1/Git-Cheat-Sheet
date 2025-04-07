@@ -23,8 +23,7 @@ A quick reference guide to commonly used Git and GitHub commands. 🎉
 
 ---
 
-<a name="configuration"></a>
-## ⚙️ Configuration
+## ⚙️ Configuration {#configuration}
 
 Configure your identity and editor:
 
@@ -44,8 +43,7 @@ git config --list
 
 ---
 
-<a name="creating-repositories"></a>
-## 🆕 Creating Repositories
+## 🆕 Creating Repositories {#creating-repositories}
 
 ```bash
 # Initialize a new Git repository in current folder
@@ -64,8 +62,7 @@ git push -u origin main
 
 ---
 
-<a name="cloning-repositories"></a>
-## 📥 Cloning Repositories
+## 📥 Cloning Repositories {#cloning-repositories}
 
 ```bash
 # Clone an existing repository
@@ -77,8 +74,7 @@ git clone git@github.com:username/repo.git
 
 ---
 
-<a name="making-changes"></a>
-## 🛠 Making Changes
+## 🛠 Making Changes {#making-changes}
 
 ```bash
 # Create a new empty file or update timestamp
@@ -102,8 +98,7 @@ git commit -v  # 🔍
 
 ---
 
-<a name="branching--merging"></a>
-## 🌿 Branching & Merging
+## 🌿 Branching & Merging {#branching--merging}
 
 ```bash
 # List branches
@@ -131,8 +126,7 @@ git push origin --delete feature-branch  # 🌐❌🌱
 
 ---
 
-<a name="merge-conflicts"></a>
-## ⚔️ Merge Conflicts
+## ⚔️ Merge Conflicts {#merge-conflicts}
 
 When merging branches, you may encounter conflicts if the same lines were changed differently:
 
@@ -180,8 +174,7 @@ git merge --abort  # ❌🔀
 
 ---
 
-<a name="inspecting--comparing"></a>
-## 🔍 Inspecting & Comparing
+## 🔍 Inspecting & Comparing {#inspecting--comparing}
 
 ```bash
 # Show commit history
@@ -201,8 +194,7 @@ git diff <file>  # 📄
 
 ---
 
-<a name="undoing-changes"></a>
-## 🔄 Undoing Changes
+## 🔄 Undoing Changes {#undoing-changes}
 
 ```bash
 # Unstage a file
@@ -223,8 +215,7 @@ git revert <commit-hash>  # 🔄
 
 ---
 
-<a name="stashing"></a>
-## 🧳 Stashing
+## 🧳 Stashing {#stashing}
 
 ```bash
 # Stash changes
@@ -251,8 +242,7 @@ git stash clear  # 🧹
 
 ---
 
-<a name="remote-repositories"></a>
-## 🌐 Remote Repositories
+## 🌐 Remote Repositories {#remote-repositories}
 
 ```bash
 # Show remotes
@@ -273,8 +263,7 @@ git push origin main  # ⬆️
 
 ---
 
-<a name="tags"></a>
-## 🏷️ Tags
+## 🏷️ Tags {#tags}
 
 ```bash
 # List tags
@@ -292,8 +281,7 @@ git push origin --tags  # 🌐🏷️🚀
 
 ---
 
-<a name="github-workflow"></a>
-## 🚀 GitHub Workflow
+## 🚀 GitHub Workflow {#github-workflow}
 
 1. Fork a repository on GitHub. 🍴
 2. Clone your fork locally. 📥
@@ -307,20 +295,20 @@ git push origin --tags  # 🌐🏷️🚀
 ---
 
 <a name="git-bash-shortcuts"></a>
-## ⌨️ Git Bash Shortcuts
+## ⌨️ Git Bash Shortcuts {#git-bash-shortcuts}
 
+```bash
 | Shortcut         | Description                             |
 |------------------|-----------------------------------------|
 | Ctrl + L         | Clear screen                            |
 | Tab              | Autocomplete file/folder names          |
 | Up/Down Arrows   | Navigate command history                |
 | Ctrl + R         | Reverse search command history          |
-```⚡
+```⚡⚡
 
 ---
 
-<a name="additional-tips"></a>
-## 💡 Additional Tips
+## 💡 Additional Tips {#additional-tips}
 
 - Use `.gitignore` to exclude files/folders. 🚫
 - Write clear, concise commit messages. 🖋️
@@ -331,3 +319,4 @@ git push origin --tags  # 🌐🏷️🚀
 ---
 
 *Happy coding!* 🎉
+
