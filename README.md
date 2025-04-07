@@ -23,6 +23,7 @@ A quick reference guide to commonly used Git and GitHub commands. 🎉
 
 ---
 
+<a name="configuration"></a>
 ## ⚙️ Configuration
 
 Configure your identity and editor:
@@ -43,6 +44,7 @@ git config --list
 
 ---
 
+<a name="creating-repositories"></a>
 ## 🆕 Creating Repositories
 
 ```bash
@@ -62,6 +64,7 @@ git push -u origin main
 
 ---
 
+<a name="cloning-repositories"></a>
 ## 📥 Cloning Repositories
 
 ```bash
@@ -74,6 +77,7 @@ git clone git@github.com:username/repo.git
 
 ---
 
+<a name="making-changes"></a>
 ## 🛠 Making Changes
 
 ```bash
@@ -98,6 +102,7 @@ git commit -v  # 🔍
 
 ---
 
+<a name="branching--merging"></a>
 ## 🌿 Branching & Merging
 
 ```bash
@@ -126,6 +131,7 @@ git push origin --delete feature-branch  # 🌐❌🌱
 
 ---
 
+<a name="merge-conflicts"></a>
 ## ⚔️ Merge Conflicts
 
 When merging branches, you may encounter conflicts if the same lines were changed differently:
@@ -174,6 +180,7 @@ git merge --abort  # ❌🔀
 
 ---
 
+<a name="inspecting--comparing"></a>
 ## 🔍 Inspecting & Comparing
 
 ```bash
@@ -194,6 +201,7 @@ git diff <file>  # 📄
 
 ---
 
+<a name="undoing-changes"></a>
 ## 🔄 Undoing Changes
 
 ```bash
@@ -215,6 +223,7 @@ git revert <commit-hash>  # 🔄
 
 ---
 
+<a name="stashing"></a>
 ## 🧳 Stashing
 
 ```bash
@@ -242,6 +251,7 @@ git stash clear  # 🧹
 
 ---
 
+<a name="remote-repositories"></a>
 ## 🌐 Remote Repositories
 
 ```bash
@@ -263,6 +273,7 @@ git push origin main  # ⬆️
 
 ---
 
+<a name="tags"></a>
 ## 🏷️ Tags
 
 ```bash
@@ -281,6 +292,7 @@ git push origin --tags  # 🌐🏷️🚀
 
 ---
 
+<a name="github-workflow"></a>
 ## 🚀 GitHub Workflow
 
 1. Fork a repository on GitHub. 🍴
@@ -294,6 +306,7 @@ git push origin --tags  # 🌐🏷️🚀
 
 ---
 
+<a name="git-bash-shortcuts"></a>
 ## ⌨️ Git Bash Shortcuts
 
 | Shortcut         | Description                             |
@@ -306,6 +319,7 @@ git push origin --tags  # 🌐🏷️🚀
 
 ---
 
+<a name="additional-tips"></a>
 ## 💡 Additional Tips
 
 - Use `.gitignore` to exclude files/folders. 🚫
@@ -317,4 +331,3 @@ git push origin --tags  # 🌐🏷️🚀
 ---
 
 *Happy coding!* 🎉
-
